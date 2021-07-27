@@ -2636,6 +2636,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-highlight-words@npm:^0":
+  version: 0.16.3
+  resolution: "@types/react-highlight-words@npm:0.16.3"
+  dependencies:
+    "@types/react": "*"
+  checksum: f4840386fb1141a704c7680125c1abf6922c4254e126ad837a5529968e2696cfeda1e4eca26ccf13ac12878e4faae4d4bc854e25c62780056cb87606a4da7888
+  languageName: node
+  linkType: hard
+
 "@types/react-is@npm:^16.7.1 || ^17.0.0":
   version: 17.0.0
   resolution: "@types/react-is@npm:17.0.0"
@@ -3655,6 +3664,7 @@ __metadata:
     "@types/prettier": ^2.2.3
     "@types/react": ^17.0.8
     "@types/react-dom": ^17.0.5
+    "@types/react-highlight-words": ^0
     "@types/react-relay": ^11.0.1
     "@types/relay-runtime": ^11.0.0
     "@types/terser-webpack-plugin": ^5.0.3
@@ -3697,6 +3707,7 @@ __metadata:
     prettier: ^2.3.0
     react: ^17.0.2
     react-dom: ^17.0.2
+    react-highlight-words: ^0.17.0
     react-refresh: ^0.10.0
     react-relay: ^11.0.2
     relay-compiler: ^11.0.2
@@ -6948,6 +6959,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"highlight-words-core@npm:^1.2.0":
+  version: 1.2.2
+  resolution: "highlight-words-core@npm:1.2.2"
+  checksum: 188e629fbccf2aaff831892e75a2af47d3ca294c5c760cc50af23d5546b4b71b76aad8fba8548f7991a3cb2be1970c0951139f811e7dd92be5d83656d567a5d5
+  languageName: node
+  linkType: hard
+
 "history@npm:^5.0.0":
   version: 5.0.0
   resolution: "history@npm:5.0.0"
@@ -9035,6 +9053,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"memoize-one@npm:^4.0.0":
+  version: 4.0.3
+  resolution: "memoize-one@npm:4.0.3"
+  checksum: 944f45aec97579a52f6db7d14ecaa88ebb119abd14ecbc3472a15d780b86073699a70e000f204c910e0bde76adeeac3a39bf47d38b374d8b13038da3847e1f24
+  languageName: node
+  linkType: hard
+
 "memory-fs@npm:^0.4.1":
   version: 0.4.1
   resolution: "memory-fs@npm:0.4.1"
@@ -10377,7 +10402,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
+"prop-types@npm:^15.5.8, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
@@ -11036,6 +11061,19 @@ fsevents@^1.2.7:
   peerDependencies:
     react: 17.0.2
   checksum: 960a74ff6670766846a73097a599115963df1574833c59ca0c2fd909758ebe7a6214cd14f5e6aa63ce846d8f39fde7f3b80474ccfcfadc45dd7f3246364718c6
+  languageName: node
+  linkType: hard
+
+"react-highlight-words@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "react-highlight-words@npm:0.17.0"
+  dependencies:
+    highlight-words-core: ^1.2.0
+    memoize-one: ^4.0.0
+    prop-types: ^15.5.8
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.0 || ^16.0.0-0 || ^17.0.0-0
+  checksum: 2fb807c9fd6b8fcd9744728b755a004ede446025995f75f9ccdc75928f41aef085cea4480d2c8d8d8d26a3b452cf5c43d90b40f6cb4f21f9702e61d371900aba
   languageName: node
   linkType: hard
 

@@ -5,6 +5,7 @@ import {
 } from "@ant-design/icons";
 import {
   Button,
+  Card,
   DatePicker,
   Form,
   Image,
@@ -518,6 +519,9 @@ export class MyComponent extends React.Component {
                       <Button type="primary">筛选</Button>
                     </span>
                     <Table columns={columns3} dataSource={data3}></Table>
+                  </TabPane>
+                  <TabPane tab="活动图片管理">
+                    <Card title="Banner图片管理"></Card>
                   </TabPane>
                 </Tabs>
               </Content>

@@ -28,6 +28,7 @@
     "path-to-regexp": "^6.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-highlight-words": "^0.17.0",
     "react-relay": "^11.0.2",
     "relay-runtime": "^11.0.2"
   },
@@ -54,6 +55,7 @@
     "@types/prettier": "^2.2.3",
     "@types/react": "^17.0.8",
     "@types/react-dom": "^17.0.5",
+    "@types/react-highlight-words": "^0",
     "@types/react-relay": "^11.0.1",
     "@types/relay-runtime": "^11.0.0",
     "@types/terser-webpack-plugin": "^5.0.3",

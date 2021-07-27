@@ -12,6 +12,7 @@ import { resolveRoute } from "../core/router";
 import theme from "../theme";
 import { ErrorPage } from "./ErrorPage";
 import { MyComponent } from "./MyComponent";
+import { RestockManager } from "./RestockManager";
 
 type AppProps = {
   history: History;
@@ -91,7 +92,8 @@ export class App extends React.Component<AppProps> {
           <HistoryContext.Provider value={history}>
             <LocationContext.Provider value={location}>
               <CssBaseline />
-              <MyComponent />
+              {/* <MyComponent /> */}
+              <RestockManager />
             </LocationContext.Provider>
           </HistoryContext.Provider>
         </RelayEnvironmentProvider>
